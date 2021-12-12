@@ -39,6 +39,23 @@ const Body: React.FC = () =>{
     carregaEndpoints();
   }, []);
 
+  // ====== Delete na minha API =======
+  // const deletePorId = async (id) => {
+  //   await api.delete(`/empresas/${id}`);
+  // }
+  // deletePorId(1);
+
+  // ====== Update na minha API =======
+  // const updatePorId = async (id) => {
+  //   await api.put(`/empresas/${id}`, {
+  //     nome: "Didox Business",
+  //     razaoSocial: "Danilo Aparecido informática",
+  //     email: "danilo@didox.com",
+  //     cnpj: "43.102.396/0001-90"
+  //   });
+  // }
+  // updatePorId(5);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const nome = document.getElementById("nome").value;
