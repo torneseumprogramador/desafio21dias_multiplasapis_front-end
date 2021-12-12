@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Front-end feita no desafio 21 dias multiplas APIs no dia 12/12/2021
+
+# A doc abaixo é o padrão que foi ferado pelo REACT
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
